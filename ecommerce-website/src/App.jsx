@@ -1,8 +1,12 @@
 import React from 'react'
 import Navbar from './components/Navbar/Navbar.jsx'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import ShopCategory from './pages/ShopCategory.jsx';
 import LoginSignup from './pages/LoginSignup.jsx';
+import Shop from './pages/Shop.jsx';
+import Product from './pages/Product.jsx';
+import Cart from './pages/Cart.jsx';
+
 const App = () => {
   return (
     <div className=''>
