@@ -6,6 +6,7 @@ import LoginSignup from './pages/LoginSignup.jsx';
 import Shop from './pages/Shop.jsx';
 import Product from './pages/Product.jsx';
 import Cart from './pages/Cart.jsx';
+import Hero from './components/Hero/Hero.jsx';
 
 const App = () => {
   return (
