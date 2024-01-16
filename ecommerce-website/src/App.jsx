@@ -7,6 +7,7 @@ import Shop from './pages/Shop.jsx';
 import Product from './pages/Product.jsx';
 import Cart from './pages/Cart.jsx';
 import Hero from './components/Hero/Hero.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
 
         
       </Routes>
+      <Footer />
       </BrowserRouter>
     </div>
   )
