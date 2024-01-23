@@ -3,6 +3,7 @@ import { ShopContext } from '../context/ShopContext'
 import { useParams } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs';
 import ProductDisplay from '../components/ProductDisplay/ProductDisplay';
+import DescriptionBox from '../components/DescriptionBox/DescriptionBox';
 
 const Product = () => {
 
@@ -15,6 +16,7 @@ const Product = () => {
     <div>
       <Breadcrumbs product={product} />
       <ProductDisplay product={product} />
+      <DescriptionBox/>
     </div>
   )
 }
